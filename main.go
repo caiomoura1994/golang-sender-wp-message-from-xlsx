@@ -112,7 +112,7 @@ func main() {
 	fileToSend := GetInputFromTerminal("Quer enviar algum arquivo ? Cole o link a baixo")
 	line := ""
 	if len(fileToSend) > 0 {
-		// line = GetInputFromTerminal("Digite o texto que deseja enviar (use @email, @nome, @phone e @pass para personalizar a mensagem):")
+		line = GetInputFromTerminal("Digite o texto que deseja enviar (use @email, @nome, @phone e @pass para personalizar a mensagem):")
 	}
 
 	fmt.Printf("\nEsse é um exemplo de mensagem:\n")
